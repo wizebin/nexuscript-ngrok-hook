@@ -16,6 +16,6 @@
   "dependencies": {
     "express": "^4.16.3",
     "nexusdk": "github:wizebin/nexusdk",
-    "ngrok": "^3.0.1"
+    "ngrok": "github:wizebin/ngrok"
   }
 }
