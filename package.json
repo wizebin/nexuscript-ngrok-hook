@@ -5,7 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "dev": "webpack --mode development && sh copy_ngrok.sh",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production && sh copy_ngrok.sh"
   },
   "author": "",
   "license": "ISC",
