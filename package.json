@@ -17,5 +17,29 @@
     "express": "^4.16.3",
     "nexusdk": "github:wizebin/nexusdk",
     "ngrok": "github:wizebin/ngrok"
+  },
+  "nexuscript": {
+    "type": "hook",
+    "author": "nexuscript",
+    "price": "free",
+    "configuration": {
+      "local_server_port": "string",
+      "subdomain": "string",
+      "token": "string",
+      "ngrok_path": "string",
+      "encoding": {
+        "_type": "option",
+        "_structure": [
+          "json",
+          "raw",
+          "xml",
+          "form"
+        ]
+      }
+    },
+    "category": "web",
+    "build_command": "npm run build",
+    "dist_folder": "dist",
+    "dist_file": "dist/main.js"
   }
 }
