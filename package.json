@@ -1,7 +1,7 @@
 {
   "name": "nexuscript-timer-hook",
   "version": "1.0.0",
-  "description": "",
+  "description": "Listen for incoming ngrok data and trigger hook in nexuscript",
   "main": "src/index.js",
   "scripts": {
     "dev": "webpack --mode development && sh copy_ngrok.sh",
